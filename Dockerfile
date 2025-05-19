@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Topu-tech/ALONE-MD.git /root/alone_BOt
-WORKDIR /root/Alone_Bot/
+RUN git clone https://github.com/caseyweb/CHARITY-XMD.git /root/charity_md
+WORKDIR /root/charity_md/
 
 
 COPY package.json .
